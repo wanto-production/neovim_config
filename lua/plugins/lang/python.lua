@@ -1,3 +1,7 @@
+if not vim.fn.executable("python") or not vim.fn.executable("python3") then
+  return {}
+end
+
 return {
   {
     "mfussenegger/nvim-dap",

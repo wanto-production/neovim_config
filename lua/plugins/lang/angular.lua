@@ -1,3 +1,7 @@
+if not vim.fn.executable("ng") then
+  return {}
+end
+
 return {
   {
     "nvim-treesitter",

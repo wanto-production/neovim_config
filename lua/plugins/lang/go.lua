@@ -1,3 +1,7 @@
+if not vim.fn.executable("go") then
+  return {}
+end
+
 return {
 
   {
